@@ -28,7 +28,7 @@ $aModule = array(
     'email' => 'info@stefanneidhart.de',
     'extend' => array(
 	//	\OxidEsales\Eshop\Core\ViewConfig::class => \sn\snShop18\Core\ViewConfig::class,
-	\OxidEsales\Eshop\Core\ViewConfig::class => \sn\snShop18\Core\ViewConfig::class,
+	//\OxidEsales\Eshop\Core\ViewConfig::class => \sn\snShop18\Core\ViewConfig::class,
     ),
     'controllers' => array(
     //'Ab18Controller' => \sn\snShop18\Controller\Admin\Ab18Controller::class,
