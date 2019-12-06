@@ -4,7 +4,7 @@
   Best practice: yournameabbr_modulename_origclassname extends [yourclassname]_parent.
   Instantiate your new class: */
 
-namespace sn\snShop18\Core;
+//namespace sn\snShop18\Core;
 
 class ViewConfig extends ViewConfig_parent
 {
