@@ -5,32 +5,21 @@
   Instantiate your new class: */
 
 namespace sn\snShop18\Core;
-
 class ViewConfig extends ViewConfig_parent {
-
 	public function ab18Check() {
 		$session = \OxidEsales\Eshop\Core\Registry::getSession();
-		
-		var_dump($session->getVariable("ab18"));
 		if($session->getVariable("ab18") === NULL) {
 			$session->setVariable("ab18", false);
-		}
-		
-		
+		}		
 		try {
-			
 			$ue18 = \OxidEsales\Eshop\Core\Registry::getConfig()->getRequestParameter("ue18flag");
-			
 			if (!empty($ue18) && $ue18 == 1) {
-				 	
 				$session->setVariable("ab18", true);
 			}
 
 		} catch (\OxidEsales\Eshop\Core\Exception\StandardException $excp) {
 			
 		}
-		
 		return $session->getVariable("ab18");
 	}
-
 }
