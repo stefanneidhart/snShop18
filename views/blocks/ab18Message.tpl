@@ -1,4 +1,4 @@
-[{if $oViewConf->ab18Check()}]
+[{if !$oViewConf->ab18Check()}]
 <div class="ab18Container">
     <form class="ab18Form" action="[{$oViewConf->getSelfActionLink()}]" method="post">
 		<div class="hidden">

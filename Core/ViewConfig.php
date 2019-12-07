@@ -12,7 +12,9 @@ class ViewConfig extends ViewConfig_parent {
 		$session = \OxidEsales\Eshop\Core\Registry::getSession();
 		
 		var_dump($session->getVariable("ab18"));
-			
+		if($session->getVariable("ab18") == null) {
+			$session->setVariable("ab18", false);
+		}
 		
 		
 		try {
