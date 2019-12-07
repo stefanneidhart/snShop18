@@ -14,8 +14,8 @@
 	<input type="submit" class="buttonAb18" value="Nein, ich bin über 18 Jahre">
     </form>
 	
-	[{if $oView->ab18Check()}]
+	[{*if $oView->ab18Check()}]
 	ab 18
-	[{/if}]
+	[{/if*}]
 	
 </div>
