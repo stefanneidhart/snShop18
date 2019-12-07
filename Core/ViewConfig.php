@@ -9,6 +9,7 @@ namespace sn\snShop18\Core;
 class ViewConfig extends ViewConfig_parent {
 
 	public function ab18Check() {
+		var_dump('echo');
 		return true;
 	}
 }
