@@ -9,6 +9,8 @@
 class ViewConfig extends ViewConfig_parent
 {
 
-
+public function ab18Check () {
+	
+}
 
 }
