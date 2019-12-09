@@ -22,7 +22,7 @@ $aModule = array(
 		'en' => '<h2>Ab 18 Abfrage</h2>',
 	),
 	'thumbnail' => '',
-	'version' => '1.0.1',
+	'version' => '1.0.2',
 	'author' => 'Stefan Neidhart',
 	'url' => 'https://www.stefanneidhart.de',
 	'email' => 'info@stefanneidhart.de',
