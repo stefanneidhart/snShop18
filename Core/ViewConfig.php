@@ -20,8 +20,16 @@ class ViewConfig extends ViewConfig_parent {
 		} catch (\OxidEsales\Eshop\Core\Exception\StandardException $excp) {
 			
 		}
-		var_dump( $this->getConfig()->getConfigParam('message18') );
+	
 		
 		return $session->getVariable("ab18");
+	}
+	
+	public function get18Message() {
+		return $this->getConfig()->getConfigParam('message18');
+	}
+	
+		public function getNot18Message() {
+		return $this->getConfig()->getConfigParam('messagenot18');
 	}
 }

@@ -11,8 +11,12 @@
 			<p>Zutritt zum Shop erst ab 18 Jahren</p>
 		</div>
 
-		<input type="submit" class="buttonAb18" name="ue18" id="ue18" value="Ja, ich bin über 18 Jahre">
-		<a class="buttonAb18" href="https://www.google.com">Nein, ich bin nicht über 18 Jahre</a>
+		<input type="submit" class="buttonAb18" name="ue18" id="ue18" value="[{$oViewConf->get18Message()}]">
+		<a class="buttonAb18" href="https://www.google.com">[{$oViewConf->getNot18Message()}]</a>
+		
+		
+		
+		
     </form>
 </div>
 [{/if}]
