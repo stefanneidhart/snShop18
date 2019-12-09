@@ -42,6 +42,7 @@ $aModule = array(
 			'file' => 'views/blocks/ab18Message.tpl'),
 	), 'settings' => array(
 		array('group' => 'ab18_message', 'name' => 'message18', 'type' => 'str', 'value' => 'Ja, ich bin über 18 Jahre'),
-		array('group' => 'ab18_message', 'name' => 'messagenot18', 'type' => 'str', 'value' => 'Nein, ich bin nicht über 18 Jahre')
+		array('group' => 'ab18_message', 'name' => 'messagenot18', 'type' => 'str', 'value' => 'Nein, ich bin nicht über 18 Jahre'),
+		array('group' => 'ab18_message', 'name' => 'messageab18head', 'type' => 'str', 'value' => 'Zutritt zum Shop erst ab 18 Jahren')
 	)
 );
