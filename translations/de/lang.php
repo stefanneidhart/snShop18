@@ -24,7 +24,6 @@
 // -------------------------------
 $aLang = array(
     'charset'                                    => 'UTF-8',
-   
     'SHOP_MODULE_GROUP_ab18_message'                   => 'Texte ab 18 Meldung',
     'SHOP_MODULE_message18'                   => 'Ab 18',
     'SHOP_MODULE_messagenot18'                   => 'Unter 18',
