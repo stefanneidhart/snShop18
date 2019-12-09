@@ -25,9 +25,9 @@
 $aLang = array(
     'charset'                                    => 'UTF-8',
    
-    'ab18_message'                   => 'Texte ab 18 Meldung',
-    'message18'                   => 'Ab 18',
-    'messagenot18'                   => 'Unter 18',
-    'messageab18head'                   => 'Überschrift',
+    'SHOP_MODULE_GROUP_ab18_message'                   => 'Texte ab 18 Meldung',
+    'SHOP_MODULE_message18'                   => 'Ab 18',
+    'SHOP_MODULE_messagenot18'                   => 'Unter 18',
+    'SHOP_MODULE_messageab18head'                   => 'Überschrift',
 
 );
