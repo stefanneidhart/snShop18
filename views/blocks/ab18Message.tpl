@@ -12,7 +12,7 @@
 		</div>
 
 		<input type="submit" class="buttonAb18" name="ue18" id="ue18" value="Ja, ich bin über 18 Jahre">
-		<a class="buttonAb18" href="https://www.google.com">Nein, ich bin über 18 Jahre</a>
+		<a class="buttonAb18" href="https://www.google.com">Nein, ich bin nicht über 18 Jahre</a>
     </form>
 </div>
 [{/if}]
